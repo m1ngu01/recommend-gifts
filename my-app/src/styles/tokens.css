@@ -1,0 +1,39 @@
+:root {
+  /* Modern dark theme (navy/indigo base) */
+  --bg: #0b0f14;
+  --bg-soft: #111826;
+  --fg: #ffffff;
+  --muted: #9aa4b2;
+
+  --accent: #7c9cff;
+  --accent-600: #5c7df0;
+  --accent-700: #4b66cc;
+
+  --card: #0f1624;
+  --card-hover: #121c2e;
+  --border: #1d2738;
+
+  --success: #22c55e;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+}
+
+:root.theme-light {
+  /* Light theme (slate base) */
+  --bg: #f8fafc;           /* slate-50 */
+  --bg-soft: #f1f5f9;      /* slate-100 */
+  --fg: #0f172a;           /* slate-900 */
+  --muted: #475569;        /* slate-600 */
+
+  --accent: #7c9cff;       /* keep brand accent consistent */
+  --accent-600: #5c7df0;
+  --accent-700: #4b66cc;
+
+  --card: #ffffff;
+  --card-hover: #f8fafc;
+  --border: #e2e8f0;       /* slate-200 */
+
+  --success: #16a34a;
+  --warning: #d97706;
+  --danger: #dc2626;
+}

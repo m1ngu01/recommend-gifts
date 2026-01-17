@@ -1,0 +1,78 @@
+@import url('./styles/tokens.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; }
+
+:root {
+  color-scheme: dark;
+}
+
+:root.theme-light {
+  color-scheme: light;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--fg);
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.MuiPaper-root {
+  background-color: var(--card) !important;
+  color: var(--fg) !important;
+}
+
+.MuiCard-root {
+  background-color: var(--card) !important;
+  color: var(--fg) !important;
+  border: 1px solid var(--border) !important;
+}
+
+.MuiTypography-colorTextSecondary {
+  color: var(--muted) !important;
+}
+
+.MuiOutlinedInput-root {
+  color: var(--fg);
+}
+
+.MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+  border-color: var(--border);
+}
+
+.MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: var(--accent);
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: var(--accent-600);
+}
+
+.MuiButton-containedPrimary {
+  background-color: var(--accent) !important;
+  color: #fff !important;
+}
+
+.MuiButton-containedPrimary:hover {
+  background-color: var(--accent-600) !important;
+}
+
+.MuiButton-containedPrimary:active {
+  background-color: var(--accent-700) !important;
+}
+
+.MuiButton-outlined {
+  border-color: var(--border) !important;
+  color: var(--fg) !important;
+}
+
+.MuiButton-outlined:hover {
+  border-color: var(--accent) !important;
+  color: var(--accent) !important;
+}

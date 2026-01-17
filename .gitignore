@@ -1,0 +1,31 @@
+# Node dependencies
+node_modules/
+**/node_modules/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Firebase credentials
+back/model/service/api_key.json
+
+# Data dumps and generated assets
+back/data/csv/
+back/data/images/
+back/data/label_data/
+
+# Logs and runtime outputs
+*.log
+back/crawd/workflowP/daily_crawl.log
+
+# Executables and installers
+*.exe
+
+# OS metadata
+.DS_Store
+Thumbs.db
