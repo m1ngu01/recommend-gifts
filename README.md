@@ -19,6 +19,17 @@
 <img width="2550" height="1421" alt="image" src="https://github.com/user-attachments/assets/6d11b58e-9b71-45d4-9e39-778e80714271" />
 <img width="1404" height="688" alt="image" src="https://github.com/user-attachments/assets/6fa4b6a8-194a-4ef9-8062-85edbc9a5289" />
 
+
+https://github.com/user-attachments/assets/60e61218-7776-40fc-864d-44a285ea2d00
+
+
+https://github.com/user-attachments/assets/00740349-0a9c-4b7f-81bd-a9f754636cd4
+
+
+https://github.com/user-attachments/assets/b1977292-cad0-491a-a2e9-1c6d5decec0b
+
+
+
 ## 실행 방법
 1) 백엔드 의존성 설치
 ```
