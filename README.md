@@ -16,6 +16,8 @@
 - 챗봇 기반 추천 대화 흐름 제공
 - 관리자 대시보드 및 설문 피드백 관리
 - 추천 모델 파이프라인(전처리, 모델링, 필터링, 스코어링, MMR) 구성
+<img width="2550" height="1421" alt="image" src="https://github.com/user-attachments/assets/6d11b58e-9b71-45d4-9e39-778e80714271" />
+<img width="1404" height="688" alt="image" src="https://github.com/user-attachments/assets/6fa4b6a8-194a-4ef9-8062-85edbc9a5289" />
 
 ## 실행 방법
 1) 백엔드 의존성 설치
